@@ -4,7 +4,7 @@
 This is a Backend server/databse configuration for an E=Commerce Website! The application takes the CRUD requests you give it from the API and updates a database accordingly.
 
 ## Video Demo 
-https://drive.google.com/file/d/1unt3O3eWPD_2tpEIFjvIWXd2l1dPhZFg/view
+https://drive.google.com/file/d/1tDnzBSZ0do4Z4OPCgKq0_vAkmCStmEeW/view
 
 ## How To Use 
 If you do not have mysql installed, please be sure to go the mysql website, download and install.  
