@@ -23,12 +23,22 @@ Product.init(
   
     price:{
       type: DataTypes.INTEGER,
-      allowNull: false
+      allowNull: false,
+      validate: {
+        isDecimal: {
+          msg: "Must be an Integer"
+        }
+      }
     },
   
     stock:{ 
     type: DataTypes.INTEGER,
-    allowNull: false
+    allowNull: false,
+    validate: {
+      isDecimal: {
+        msg: "Must be an Integer"
+      }
+    }
     },
   
     category_id:{
